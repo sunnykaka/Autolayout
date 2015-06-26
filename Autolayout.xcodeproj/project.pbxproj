@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		401D35181B3CE34400A68B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D35171B3CE34400A68B12 /* AppDelegate.swift */; };
-		401D351A1B3CE34400A68B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D35191B3CE34400A68B12 /* ViewController.swift */; };
+		401D351A1B3CE34400A68B12 /* AutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D35191B3CE34400A68B12 /* AutolayoutViewController.swift */; };
 		401D351D1B3CE34400A68B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401D351B1B3CE34400A68B12 /* Main.storyboard */; };
 		401D351F1B3CE34400A68B12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401D351E1B3CE34400A68B12 /* Images.xcassets */; };
 		401D35221B3CE34400A68B12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401D35201B3CE34400A68B12 /* LaunchScreen.xib */; };
 		401D352E1B3CE34500A68B12 /* AutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D352D1B3CE34500A68B12 /* AutolayoutTests.swift */; };
+		401D353A1B3D1EB600A68B12 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D35391B3D1EB600A68B12 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		401D35121B3CE34400A68B12 /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		401D35161B3CE34400A68B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		401D35171B3CE34400A68B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		401D35191B3CE34400A68B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		401D35191B3CE34400A68B12 /* AutolayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutViewController.swift; sourceTree = "<group>"; };
 		401D351C1B3CE34400A68B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		401D351E1B3CE34400A68B12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		401D35211B3CE34400A68B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		401D35271B3CE34400A68B12 /* AutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401D352C1B3CE34500A68B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		401D352D1B3CE34500A68B12 /* AutolayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTests.swift; sourceTree = "<group>"; };
+		401D35391B3D1EB600A68B12 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 		401D35141B3CE34400A68B12 /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				401D35171B3CE34400A68B12 /* AppDelegate.swift */,
-				401D35191B3CE34400A68B12 /* ViewController.swift */,
+				401D35191B3CE34400A68B12 /* AutolayoutViewController.swift */,
 				401D351B1B3CE34400A68B12 /* Main.storyboard */,
+				401D35391B3D1EB600A68B12 /* User.swift */,
 				401D351E1B3CE34400A68B12 /* Images.xcassets */,
-				401D35201B3CE34400A68B12 /* LaunchScreen.xib */,
 				401D35151B3CE34400A68B12 /* Supporting Files */,
 			);
 			path = Autolayout;
@@ -90,6 +91,8 @@
 		401D35151B3CE34400A68B12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				401D35171B3CE34400A68B12 /* AppDelegate.swift */,
+				401D35201B3CE34400A68B12 /* LaunchScreen.xib */,
 				401D35161B3CE34400A68B12 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				401D351A1B3CE34400A68B12 /* ViewController.swift in Sources */,
+				401D351A1B3CE34400A68B12 /* AutolayoutViewController.swift in Sources */,
 				401D35181B3CE34400A68B12 /* AppDelegate.swift in Sources */,
+				401D353A1B3D1EB600A68B12 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				401D35331B3CE34500A68B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		401D35341B3CE34500A68B12 /* Build configuration list for PBXNativeTarget "AutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				401D35361B3CE34500A68B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
